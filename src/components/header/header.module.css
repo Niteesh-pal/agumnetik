@@ -1,0 +1,84 @@
+.header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    padding: 1rem;
+    justify-content: center;
+    max-height: 4rem;
+    background-color: #E4F6F5;
+    font-size: 20px;
+    position: relative;
+    border: 1px solid red;
+}
+.logo{
+    display: flex;
+   
+   
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+.dropdown{
+    /* border: 1px solid black; */
+    
+}
+.drophead{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 1rem;
+    /* border: 1px solid orange; */
+    background-color:#E4F6F5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .drophead div{
+    padding: 5px 10px;
+
+} */
+.dropContent{
+    padding: 0px;
+    /* border:1px solid red; */
+    visibility:visible;
+    background-color:#ccf8e9;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* visibility: hidden; */
+}
+
+.dropContent ul{
+    list-style: none;
+    /* border: 1px solid green; */
+    padding: 4px;
+}
+.dropContent ul li{
+    padding:0.5rem 1rem;
+    margin: 4px 0px;
+    text-align: center;
+    
+  
+
+}
+.dropContent ul li:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.droplist{
+
+}
+.login{
+    display: flex;
+   justify-content: center;
+    
+    position: relative;
+    top:-4px;
+    
+}
+.loginContent{
+    padding: 1rem;
+    
+}

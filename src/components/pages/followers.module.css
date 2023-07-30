@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300;400;700;800&family=Lobster&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@100;200;300&family=Rubik:ital@1&family=Urbanist:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+.follow{
+    display:  grid;
+    grid-template-columns: 1.3fr 2fr;
+    color: rgb(24, 24, 85);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+}
+.content{
+    padding: 2rem;
+    margin-left: 5rem;
+}
+.heading{
+    font-size: 40px;
+}
+.cards{
+    display: flex;
+}
+
+.card_content{
+    padding: 1rem;
+}
+.card_content p{
+    padding: 10px;
+}
+.image{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 10rem;
+    height:10rem;
+    
+    position: absolute;
+
+}
+.one{
+background-color: aqua;
+}
+.two{
+    background-color: blue;
+}
